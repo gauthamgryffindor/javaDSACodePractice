@@ -1,0 +1,27 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int a=0;
+        func(a);
+    }
+    public static void func(int a){
+        System.out.println(a);
+        if(a==3){
+            return;
+        }
+        func(a+1);
+        System.out.println("Try programiz.pro"+a);
+    }
+}
+output:
+0
+1
+2
+3
+Try programiz.pro 2
+Try programiz.pro 1
+Try programiz.pro 0
