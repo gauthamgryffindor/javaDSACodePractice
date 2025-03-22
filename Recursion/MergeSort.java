@@ -1,6 +1,5 @@
 // Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-import java.util.Arrays;
+package Recursion;
 class Main {
     public static void main(String[] args) {
         int[] a={5,4,3,2,1};
